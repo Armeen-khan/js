@@ -6,6 +6,6 @@
 // (Hint : Make sure it should not disturb the array that contains 15 players instead you have
 // to make a copy of this array)
 
-const worldCupSquad = ['Babar Azam', 'Fakhar Zaman', 'Imam-ul-Haq', 'Mohammad Rizwan', 'Sarfaraz Ahmed', 'Shadab Khan', 'Shoaib Malik', 'Asif Ali', 'Haris Sohail', 'Imad Wasim', 'Faheem Ashraf', 'Hasan Ali', 'Junaid Khan', 'Mohammad Amir', 'Shaheen Afridi'];
+const worldCupSquad = ['Babar Azam', 'Fakhar Zaman', 'Shahid Afridi', 'Mohammad Rizwan', 'Sarfaraz Ahmed', 'Shadab Khan', 'Shoaib Malik', 'Asif Ali', 'Haris Sohail', 'Imad Wasim', 'Faheem Ashraf', 'Hasan Ali', 'Junaid Khan', 'Mohammad Amir', 'Shaheen Afridi'];
 const finalTeam = worldCupSquad.slice(0, 11);
 alert(`Final team to play against India: ${finalTeam.join(', ')}`);

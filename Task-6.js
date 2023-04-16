@@ -5,7 +5,7 @@
 // array and total number of items remaining.
 
 
-const products = ['Apple', 'Banana', 'Cherry', 'Durian', 'Elderberry'];
+const products = ['Keyboard', 'Mouse', 'Mouse pad', 'Printer', 'Scanner', 'Computer', 'CPU'];
 const indexToRemove = prompt(`Total Products: \n${products} \nEnter the index of the product to remove (0 - ${products.length - 1}):`);
 const removedItem = products[indexToRemove];
 products.splice(indexToRemove, 1);
